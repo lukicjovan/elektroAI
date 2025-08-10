@@ -131,3 +131,4 @@ outputs/
 reports/
 "token.txt" 
 "*.exe" 
+*.exe
