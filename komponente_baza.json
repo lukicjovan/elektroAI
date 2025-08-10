@@ -1,0 +1,27 @@
+{
+  "MCB": {
+    "tip": "osigurač",
+    "opis": "štiti kolo od prevelike struje",
+    "tipicne_veze": ["TX", "napajanje"]
+  },
+  "TX": {
+    "tip": "transformator",
+    "opis": "menja napon struje",
+    "tipicne_veze": ["MCB", "R"]
+  },
+  "R": {
+    "tip": "relej",
+    "opis": "elektronski prekidač koji upravlja drugim komponentama",
+    "tipicne_veze": ["TX", "Q", "K"]
+  },
+  "Q": {
+    "tip": "prekidač",
+    "opis": "ručno uključuje/isključuje kolo",
+    "tipicne_veze": ["R", "K"]
+  },
+  "K": {
+    "tip": "kontaktor",
+    "opis": "uključuje veće potrošače",
+    "tipicne_veze": ["Q"]
+  }
+}

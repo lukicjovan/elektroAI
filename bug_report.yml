@@ -1,0 +1,28 @@
+name: Bug report
+description: Report a bug in elektroAI
+title: "[BUG] "
+labels: [bug]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the bug and expected behavior.
+      placeholder: A clear and concise description...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App version / Git commit
+      placeholder: e.g. 1.0.0 or commit hash
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: 1. ... 2. ... 3. ...
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / Traceback
+      render: bash

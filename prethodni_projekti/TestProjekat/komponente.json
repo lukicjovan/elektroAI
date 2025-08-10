@@ -1,0 +1,12 @@
+[
+  {
+    "oznaka": "R1",
+    "tip": "Relej",
+    "izvor": "PDF-šema"
+  },
+  {
+    "oznaka": "F1",
+    "tip": "Osigurač",
+    "izvor": "PDF-šema"
+  }
+]

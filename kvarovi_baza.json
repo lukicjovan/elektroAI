@@ -1,0 +1,18 @@
+{
+  "motor se ne pokreće": [
+    "Proveri napajanje (230V)",
+    "Proveri kontakt releja K1",
+    "Proveri osigurač F1",
+    "Proveri da li je TX1 ispravan"
+  ],
+  "nema napona na izlazu TX1": [
+    "Proveri primar TX1",
+    "Proveri osigurač F2",
+    "Proveri da li je relej K2 uključen"
+  ],
+  "svetlo u ormanu ne radi": [
+    "Proveri osigurač F3",
+    "Proveri prekidač S1",
+    "Proveri lampu L1"
+  ]
+}
