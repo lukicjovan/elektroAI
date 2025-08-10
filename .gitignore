@@ -130,3 +130,4 @@ yarn.lock
 outputs/
 reports/
 "token.txt" 
+"*.exe" 
