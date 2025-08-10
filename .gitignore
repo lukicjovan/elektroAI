@@ -132,3 +132,10 @@ reports/
 "token.txt" 
 "*.exe" 
 *.exe
+token.txt
+*.exe
+*.msi
+*.zip
+*.7z
+*.rar
+*.iso
